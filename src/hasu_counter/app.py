@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="LLO カウンタ", page_icon="💬")
+
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
@@ -9,7 +11,7 @@ footer {visibility: hidden;}
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.title("LLO カウンタ")
+st.title("リンクラ LLO カウンタ")
 
 st.write("全部押すと自動でリセットされます")
 
